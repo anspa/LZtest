@@ -19,3 +19,8 @@ steps:
     backendAzureRmStorageAccountName: 'anspasttfmgmtwe001'
     backendAzureRmContainerName: 'terraformstate'
     backendAzureRmKey: 'tfstatelz'
+
+- task: TerraformTaskV2@2
+  inputs:
+    provider: 'azurerm'
+    command: 'init'
