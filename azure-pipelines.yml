@@ -17,5 +17,5 @@ steps:
     command: 'init'
     backendAzureRmResourceGroupName: 'rg-anspa-tf-mgmt-we-001'
     backendAzureRmStorageAccountName: 'anspasttfmgmtwe001'
-    backendAzureRmContainerName: 'terraformstatelz'
-    backendAzureRmKey: 'tfstate'
+    backendAzureRmContainerName: 'terraformstate'
+    backendAzureRmKey: 'tfstatelz'
